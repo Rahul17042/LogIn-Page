@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password</title>
+</head>
+<style>
+    body{
+        background-color: rgb(234, 200, 156);
+    }
+</style>
+<body>
+    <table border="10" width="100" cellspacing="1" cellpadding="50" align="center">
+        <tr>
+            <td>
+    <h3>Forgot Password</h3>
+    <form method="get"  action="./changepassword.html" autocomplete="off">
+        <input type="text" name="username" minlength="3" maxlength="15" placeholder="Enter Username" required>
+        <br><br>
+        <input type="password" name="New Password" placeholder="Enter New Password" required>
+        <br><br>
+        <input type="OTP" name="OTP" placeholder="Enter OTP" required>
+        <p>OTP: 1234 </p>
+        
+        <input type="submit" value="Change Password">
+    </form>
+    <br><br>
+    <a href="login.html">LogIn</a> &nbsp; <a href="Register.html">Register</a>
+</td>
+</tr>
+</table>
+</body>
+</html>
